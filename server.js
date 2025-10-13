@@ -2,8 +2,8 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-// Serve static files (your frontend)
-app.use(express.static(path.join(__dirname, 'frontend')));
+// Serve static files (your public)
+app.use(express.static(path.join(__dirname, 'public')));
 
 // Parse JSON for API requests
 app.use(express.json());
@@ -28,27 +28,27 @@ app.post('/api/signup', (req, res) => {
 
 // Serve your HTML pages with proper routes
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'frontend', 'index.html'));
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 app.get('/announcements', (req, res) => {
-  res.sendFile(path.join(__dirname, 'frontend', 'Announcements.html'));
+  res.sendFile(path.join(__dirname, 'public', 'Announcements.html'));
 });
 
 app.get('/archives', (req, res) => {
-  res.sendFile(path.join(__dirname, 'frontend', 'Archives.html'));
+  res.sendFile(path.join(__dirname, 'public', 'Archives.html'));
 });
 
 app.get('/events', (req, res) => {
-  res.sendFile(path.join(__dirname, 'frontend', 'Events.html'));
+  res.sendFile(path.join(__dirname, 'public', 'Events.html'));
 });
 
 app.get('/login', (req, res) => {
-  res.sendFile(path.join(__dirname, 'frontend', 'login.html'));
+  res.sendFile(path.join(__dirname, 'public', 'login.html'));
 });
 
 app.get('/signup', (req, res) => {
-  res.sendFile(path.join(__dirname, 'frontend', 'signup.html'));
+  res.sendFile(path.join(__dirname, 'public', 'signup.html'));
 });
 
 const PORT = process.env.PORT || 3000;
