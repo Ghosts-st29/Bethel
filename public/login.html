@@ -282,6 +282,36 @@
                 }
             });
         });
+
+        // Example for login form
+document.getElementById('student-login-form').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  
+  const formData = {
+    email: document.getElementById('student-email').value,
+    password: document.getElementById('student-password').value
+  };
+  
+  try {
+    const response = await fetch('/api/login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData)
+    });
+    
+    const result = await response.json();
+    
+    if (result.success) {
+      alert('Login successful!');
+      // Redirect or update UI
+      window.location.href = '/';
+    } else {
+      alert('Login failed: ' + result.message);
+    }
+  } catch (error) {
+    alert('Error: ' + error.message);
+  }
+});
     </script>
 </body>
 </html>
