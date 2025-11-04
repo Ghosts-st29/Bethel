@@ -1,0 +1,15 @@
+/workspaces/Bethel/CsharpProjects/TestProjectd/bin/Debug/net8.0/TestProjectd
+/workspaces/Bethel/CsharpProjects/TestProjectd/bin/Debug/net8.0/TestProjectd.deps.json
+/workspaces/Bethel/CsharpProjects/TestProjectd/bin/Debug/net8.0/TestProjectd.runtimeconfig.json
+/workspaces/Bethel/CsharpProjects/TestProjectd/bin/Debug/net8.0/TestProjectd.dll
+/workspaces/Bethel/CsharpProjects/TestProjectd/bin/Debug/net8.0/TestProjectd.pdb
+/workspaces/Bethel/CsharpProjects/TestProjectd/obj/Debug/net8.0/TestProjectd.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Bethel/CsharpProjects/TestProjectd/obj/Debug/net8.0/TestProjectd.AssemblyInfoInputs.cache
+/workspaces/Bethel/CsharpProjects/TestProjectd/obj/Debug/net8.0/TestProjectd.AssemblyInfo.cs
+/workspaces/Bethel/CsharpProjects/TestProjectd/obj/Debug/net8.0/TestProjectd.csproj.CoreCompileInputs.cache
+/workspaces/Bethel/CsharpProjects/TestProjectd/obj/Debug/net8.0/TestProjectd.sourcelink.json
+/workspaces/Bethel/CsharpProjects/TestProjectd/obj/Debug/net8.0/TestProjectd.dll
+/workspaces/Bethel/CsharpProjects/TestProjectd/obj/Debug/net8.0/refint/TestProjectd.dll
+/workspaces/Bethel/CsharpProjects/TestProjectd/obj/Debug/net8.0/TestProjectd.pdb
+/workspaces/Bethel/CsharpProjects/TestProjectd/obj/Debug/net8.0/TestProjectd.genruntimeconfig.cache
+/workspaces/Bethel/CsharpProjects/TestProjectd/obj/Debug/net8.0/ref/TestProjectd.dll
